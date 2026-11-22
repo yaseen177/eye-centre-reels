@@ -1,0 +1,10 @@
+{"style":"gold","scenes":[
+ {"type":"chat","name":"My Wallet","dur":5,"messages":[
+   {"from":"me","text":"Black Friday just started"},
+   {"from":"them","text":"Don't you dare"},
+   {"from":"me","text":"It's Tom Ford. 30% off."},
+   {"from":"them","text":"...fine. ONE pair."}]},
+ {"type":"guess","question":"GUESS THE PRICE","image":"assets/cutouts/tom-ford-ft0711-fausto.png","brand":"Tom Ford","name":"FT0711 Fausto","price":"£253.04","was":"£361.49","dur":3},
+ {"type":"rate","title":"RATING FRAMES","score":"11/10","image":"assets/cutouts/saint-laurent-sl-m919.png","brand":"Saint Laurent","name":"SL M919","price":"£269.50","was":"£385","dur":2.5},
+ {"type":"product","image":"assets/cutouts/ray-ban-rb3025-aviator-classic.png","brand":"RAY-BAN","name":"RB3025 Aviator Classic","price":"£143.14","was":"£204.49","badge":"30% OFF","dur":2},
+ {"type":"end","headline":"30% OFF DESIGNER FRAMES","sub":"Black Friday at The Eye Centre","cta":"theeyecentre.com","small":["Frames only. Excludes Ray-Ban Meta."],"dur":3}]}
