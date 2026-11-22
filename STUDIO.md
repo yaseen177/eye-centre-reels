@@ -4,6 +4,10 @@ Goal: every day, make **one** new Reel for The Eye Centre (independent opticians
 est. 1974, theeyecentre.com) and post it to **Instagram and the Facebook Page**. Then tell the owner (Abbas) what went out.
 `POSTS_PER_DAY = 1` (raise only if Abbas asks).
 
+**Every video is brand new.** Never re-post or re-upload an existing video (the Black Friday reels "Stop Scrolling",
+"Designer frames never go on sale" and the original Black Friday reel are running as paid Meta ads; the slot machine
+video is retired). Abbas wants funny intros, viral/trending formats, animation and hooks that stop the scroll.
+
 ## 0. Setup (fresh session)
 1. Attach this repo with push access (`add_repo yaseen177/eye-centre-reels`, access "push"), clone it with depth 1.
 2. Check tools: `python3 -c "import PIL, numpy, cairosvg"` (if cairosvg is missing: `pip install --break-system-packages cairosvg`) and `ffmpeg -version`.
@@ -29,15 +33,27 @@ est. 1974, theeyecentre.com) and post it to **Instagram and the Facebook Page**.
    or the background is not clean. Reuse cut-outs already in `studio/assets/cutouts/` when the handle matches.
 
 ## 3. Build the video
-1. Write `studio/specs/<date>-<slug>.json` (format documented at the top of `studio/engine.py`; see `studio/examples/`).
-   10–16 seconds total, 4–6 scenes, always ending with an `end` scene. Logo is automatic on every scene.
-2. **The first scene is the hook** — it must make people stop in the first second. Formulas that work:
-   - Pattern break: "STOP SCROLLING", "WAIT…", "DON'T BUY GLASSES UNTIL…"
-   - Curiosity: "Can't decide?", "Which would you pick?", "Guess the brand", "POV: your new frames arrive"
-   - Value: "Designer frames under £150", "30% OFF designer frames" (only if live)
-   - Problem → fix: "Hate choosing frames online? Try them at home."
-   - Local: "Leicester, your new opticians just got online"
-   Keep hook lines to 1–3 words each (punch style) or one short sentence (cream style).
+1. Write `studio/specs/<date>-<slug>.json` (format documented at the top of `studio/engine.py` and `studio/viral.py`;
+   see `studio/examples/`, especially `funny-chat.json`; example prices are NOT current — always re-read prices). 10–16 seconds total, 4–6 scenes, always ending with an `end`
+   scene. Logo is automatic on every scene.
+2. **The first scene is the hook and should be funny or viral-style** — it must make people stop in the first second.
+   Use one of the viral scene types as the opener (write NEW wording every day, these are only examples):
+   - `chat` (fake text conversation — funniest, best performer). Contacts are generic: Mum, Dad, Bestie, Boss, My Bank,
+     My Wallet, The Group Chat, Me in 2019. e.g. Me: "Mum I need new glasses" / Mum: "We have glasses at home" /
+     Me: "They're Gucci" / Mum: "Send me the link". Or My Bank: "Please stop buying designer things" / Me: "They're
+     30% off" / My Bank: "…carry on".
+   - `pov` caption over a product: "POV: you finally found frames that actually suit your face",
+     "POV: your optometrist says you need glasses and you're secretly happy", "POV: your new Tom Fords just arrived".
+   - `glitch`: "WAIT." / "DON'T BUY" / "GLASSES YET"; "ERROR:" / "TOO MANY" / "NICE FRAMES".
+   - `search`: someone typing "designer glasses leicester" or "where to buy gucci glasses" → The Eye Centre appears.
+   - `rate` ("Rating frames 1–10", "Rating Leicester's best frames", stamp "11/10") or `guess` ("Guess the price",
+     reveal with confetti) as the opener or the middle.
+   - Classic `hook` lines still work: "STOP SCROLLING", "Which would you pick?".
+   Then 2–4 scenes showing real products/features, then `end`.
+   Humour rules: punch up at situations (wallets, choosing frames, squinting at menus), never at customers, people's
+   looks, age, eyesight problems or any condition. No real people or celebrities, no film/TV characters or quotes,
+   no copyrighted music or trending sounds (the engine makes its own soundtrack), no swearing, no competitor names.
+   Scores like "10/10" are our playful opinion of a frame, never presented as customer reviews.
 3. Contact sheet first: `python3 -I studio/engine.py <spec> /tmp/sheet.png --frames` → Read it → fix any text that
    overlaps, runs off screen or is too small. Then render:
    `python3 -I studio/engine.py <spec> videos/<date>-<slug>.mp4`
@@ -57,7 +73,7 @@ est. 1974, theeyecentre.com) and post it to **Instagram and the Facebook Page**.
 | Practice | "Independent opticians since 1974", "56 High Street, Leicester" | |
 Brands online: Gucci, Saint Laurent, Tom Ford, Ray-Ban (vendor stored as "RayBan"), Oakley, Burberry,
 Polo Ralph Lauren, Armani Exchange, Ray-Ban Meta. **Prada and Mulberry are not sold online** — never in online content.
-Never: OCT scans, made-up reviews or numbers, competitor names, countdown "timers", gambling imagery (slot machines,
+Never: OCT scans, made-up reviews or numbers, re-posting old videos, competitor names, countdown "timers", gambling imagery (slot machines,
 jackpots, spinning reels), anything about patients.
 
 ## 5. Publish

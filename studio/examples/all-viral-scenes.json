@@ -1,0 +1,12 @@
+{"style":"punch","scenes":[
+ {"type":"chat","name":"Mum","dur":4.5,"messages":[
+   {"from":"me","text":"Mum I need new glasses"},
+   {"from":"them","text":"We have glasses at home"},
+   {"from":"me","text":"They're Gucci. And 30% off."},
+   {"from":"them","text":"Send me the link"}]},
+ {"type":"pov","text":"POV: you finally found frames that actually suit your face","image":"assets/cutouts/saint-laurent-sl-m919.png","dur":3},
+ {"type":"glitch","lines":["WAIT.","DON'T BUY","GLASSES YET"],"dur":1.5},
+ {"type":"rate","title":"RATING FRAMES","score":"10/10","image":"assets/cutouts/gucci-gg2270s.png","brand":"Gucci","name":"GG2270S","price":"£245","was":"£350","dur":2.5},
+ {"type":"guess","question":"GUESS THE PRICE","image":"assets/cutouts/tom-ford-ft0711-fausto.png","brand":"Tom Ford","name":"FT0711 Fausto","price":"£253.04","was":"£361.49","dur":3},
+ {"type":"search","query":"designer glasses leicester","result":"The Eye Centre","url":"theeyecentre.com","lines":["Gucci, Tom Ford, Saint Laurent & more","Prescription lenses by Essilor","Independent opticians since 1974"],"dur":3.5},
+ {"type":"end","headline":"30% OFF DESIGNER FRAMES","sub":"Independent opticians since 1974","cta":"theeyecentre.com","small":["Frames only. Excludes Ray-Ban Meta."],"dur":3}]}
