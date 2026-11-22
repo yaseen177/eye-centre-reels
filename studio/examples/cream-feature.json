@@ -1,0 +1,6 @@
+{"style":"cream","scenes":[
+ {"type":"hook","lines":["Can't decide?","Try them at home."],"dur":2.5},
+ {"type":"feature","icon":"home","title":"10-day home trial","sub":"Up to 2 frames, delivered to your door","dur":2.5},
+ {"type":"product","image":"assets/cutouts/burberry-0be2427u.png","brand":"Burberry","name":"0BE2427U","price":"£251.99","dur":2},
+ {"type":"feature","icon":"tryon","title":"Virtual try-on","sub":"See them on your face before you order","dur":2},
+ {"type":"end","headline":"Designer eyewear","sub":"Online & in store, Leicester since 1974","cta":"theeyecentre.com","small":[],"dur":3.5}]}

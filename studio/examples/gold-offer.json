@@ -1,0 +1,6 @@
+{"style":"gold","scenes":[
+ {"type":"hook","lines":["DESIGNER FRAMES","30% OFF"],"dur":2},
+ {"type":"product","image":"assets/cutouts/gucci-gg2270s.png","brand":"Gucci","name":"GG2270S","price":"£245","was":"£350","badge":"30% OFF","dur":1.5},
+ {"type":"product","image":"assets/cutouts/tom-ford-ft0711-fausto.png","brand":"Tom Ford","name":"FT0711 Fausto","price":"£253","was":"£361","badge":"30% OFF","dur":1.5},
+ {"type":"feature","icon":"home","title":"TRY AT HOME FIRST","sub":"10-day home trial on frames","dur":2},
+ {"type":"end","headline":"30% OFF FRAMES","sub":"Online & in store, Leicester","cta":"theeyecentre.com","small":["Frames only. Excludes Ray-Ban Meta."],"dur":3.5}]}

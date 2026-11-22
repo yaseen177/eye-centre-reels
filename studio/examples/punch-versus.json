@@ -1,0 +1,5 @@
+{"style":"punch","scenes":[
+ {"type":"hook","lines":["WAIT","WHICH","ONE?"],"dur":1.5},
+ {"type":"versus","question":"WHICH WOULD YOU PICK?","a":{"image":"assets/cutouts/saint-laurent-sl-m919.png","brand":"Saint Laurent","price":"£385"},"b":{"image":"assets/cutouts/ray-ban-rb3025-aviator-classic.png","brand":"Ray-Ban","price":"£204.49"},"dur":3.5},
+ {"type":"list","title":"BUY GLASSES ONLINE","items":["Prescription lenses by Essilor","Varifocals from 2 photos","Every prescription checked","Pay in 3 with Klarna"],"dur":3},
+ {"type":"end","headline":"SHOP DESIGNER FRAMES","sub":"Independent opticians since 1974","cta":"theeyecentre.com","small":[],"dur":3}]}
