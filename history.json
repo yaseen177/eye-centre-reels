@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "date": "2026-11-22",
+    "file": "videos/2026-11-22-wallet-chat.mp4",
+    "spec": "studio/specs/2026-11-22-wallet-chat.json",
+    "style": "gold",
+    "format": "offer",
+    "hook": "chat with My Wallet: 'Black Friday just started' / 'Don't you dare' / 'It's Tom Ford. 30% off.' / '...fine. ONE pair.'",
+    "scenes": ["chat", "guess", "rate", "product", "end"],
+    "products": [
+      {"handle": "tom-ford-ft0711-fausto", "price": "361.49", "shown": "253.04"},
+      {"handle": "saint-laurent-sl-m919", "price": "385.00", "shown": "269.50"},
+      {"handle": "ray-ban-rb3025-aviator-classic", "price": "204.49", "shown": "143.14"}
+    ],
+    "offer": "Black Friday 30% off frames (automatic, ends 2026-12-01T23:59:59Z)",
+    "caption_hashtags": ["#blackfriday", "#designerglasses", "#eyewear", "#leicester", "#opticians"],
+    "instagram": {"status": "published", "media_id": "18180326230452642"},
+    "facebook": {"status": "published", "video_id": "1082673814822788", "post_id": "1330737563467275_122115004095533740"}
+  }
+]
