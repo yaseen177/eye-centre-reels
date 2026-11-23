@@ -1,0 +1,6 @@
+{"style":"punch","scenes":[
+ {"type":"pov","text":"POV: you said you'd only have a quick look at the Black Friday sale","image":"assets/cutouts/burberry-0be2427u.png","dur":3},
+ {"type":"versus","question":"Which would you pick?","a":{"image":"assets/cutouts/gucci-gg0027o.png","brand":"GUCCI","name":"GG0027O","price":"£164.50","was":"£235"},"b":{"image":"assets/cutouts/burberry-0be2427u.png","brand":"BURBERRY","name":"BE2427U","price":"From £162.04"},"dur":3.5},
+ {"type":"product","image":"assets/cutouts/ray-ban-0rx7046.png","brand":"RAY-BAN","name":"RX7046 Erika","price":"From £91.34","badge":"30% OFF","dur":2},
+ {"type":"feature","icon":"tryon","title":"TRY BEFORE YOU ORDER","sub":"Try frames on virtually before you order","dur":2},
+ {"type":"end","headline":"30% OFF DESIGNER FRAMES","sub":"Black Friday at The Eye Centre","cta":"theeyecentre.com","small":["Frames only. Excludes Ray-Ban Meta."],"dur":3}]}
