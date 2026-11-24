@@ -96,5 +96,49 @@
       "video_id": "2095565141092758",
       "post_id": "1330737563467275_122115231039533740"
     }
+  },
+  {
+    "date": "2026-11-24",
+    "file": "videos/2026-11-24-budget-search.mp4",
+    "spec": "studio/specs/2026-11-24-budget-search.json",
+    "style": "cream",
+    "format": "price-point",
+    "hook": "search: 'how to look expensive on a budget' -> The Eye Centre",
+    "scenes": [
+      "search",
+      "guess",
+      "rate",
+      "feature",
+      "end"
+    ],
+    "products": [
+      {
+        "handle": "saint-laurent-sl-170",
+        "price": "195.00",
+        "shown": "136.50"
+      },
+      {
+        "handle": "gucci-gg0011o",
+        "price": "290.00",
+        "shown": "203.00"
+      }
+    ],
+    "offer": "Black Friday 30% off frames (automatic, ends 2026-12-01T23:59:59Z)",
+    "caption_hashtags": [
+      "#blackfriday",
+      "#designerglasses",
+      "#eyewear",
+      "#leicester",
+      "#opticians"
+    ],
+    "instagram": {
+      "status": "published",
+      "media_id": "18141071866667843"
+    },
+    "facebook": {
+      "status": "published",
+      "video_id": "6485257181629957",
+      "post_id": "1330737563467275_122115612801533740"
+    }
   }
 ]
