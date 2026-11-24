@@ -1,0 +1,6 @@
+{"style":"cream","scenes":[
+ {"type":"search","query":"how to look expensive on a budget","result":"The Eye Centre","url":"theeyecentre.com","lines":["Gucci, Saint Laurent, Oakley & more","30% off designer frames for Black Friday","Independent opticians since 1974"],"dur":3.5},
+ {"type":"guess","question":"GUESS THE PRICE","image":"assets/cutouts/saint-laurent-sl-170.png","brand":"Saint Laurent","name":"SL 170","price":"£136.50","was":"£195","dur":3},
+ {"type":"rate","title":"RATING FRAMES","score":"11/10","image":"assets/cutouts/gucci-gg0011o.png","brand":"Gucci","name":"GG0011O","price":"£203","was":"£290","dur":2.5},
+ {"type":"feature","icon":"home","title":"Try them at home","sub":"Try up to 2 frames at home for 10 days","dur":2},
+ {"type":"end","headline":"30% OFF DESIGNER FRAMES","sub":"Black Friday at The Eye Centre","cta":"theeyecentre.com","small":["Frames only. Excludes Ray-Ban Meta."],"dur":3}]}
