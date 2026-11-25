@@ -65,6 +65,25 @@ video is retired). Abbas wants funny intros, viral/trending formats, animation a
      reveal with confetti) as the opener or the middle.
    - Classic `hook` lines still work: "STOP SCROLLING", "Which would you pick?".
    Then 2–4 scenes showing real products/features, then `end`.
+   **Always a different hook (Abbas: "keep using different hooks — that's what works on Instagram").** Never use the
+   same opener scene type as either of the last 2 reels, and never reuse a hook line, joke or chat contact+punchline
+   from history.json. Cycle through all the formats, including the trend formats below, not just chat/pov.
+   More hook ideas (approved by Abbas, 2026-11-25 — still write fresh wording, these are starting points):
+   - chat: My Bank "You said you were only looking" / Me "They're 30% off" / My Bank "…go on then";
+     Mum "Why are there 3 pairs of glasses in your basket?" / Me "Work, weekends, and being mysterious";
+     Me in 2019 "These frames will last forever" / Me now "Bestie, it's time".
+   - pov: "you try one pair on 'just to see' and leave with three"; "someone compliments your frames and you act like
+     it was easy to choose"; "your glasses are older than your phone contract".
+   - glitch: "WAIT." / "HOW OLD" / "ARE YOUR GLASSES?"; "ERROR:" / "TOO MUCH" / "DRIP DETECTED".
+   - search: "glasses that make me look like I have my life together"; "how to look expensive in Leicester".
+   - trend formats (build with `hook`/`list`/`rate`/`guess`): "Green flags in glasses" (e.g. "tries up to 2 frames at
+     home for 10 days first"); "Tell me you're from Leicester without telling me" (… "you know where 56 High Street
+     is"); "Rating frames by main character energy" (11/10 stamp); "Guess the price — wrong answers only".
+   **Game-mission theme (`mission` / `loot` / `complete`, studio/game.py, example studio/examples/game-mission.json):
+   use it ONCE only** — in the next reel after 2026-11-25 if history.json has no reel with `"format": "game"`, then
+   never again unless Abbas asks. It is our own game look: never name or imitate a real game (no GTA, its logo, font,
+   characters, "mission passed"/"respect" wording, wanted stars, health bars), not in the video and not in the caption.
+   Log it in history with `"format": "game"`.
    Humour rules: punch up at situations (wallets, choosing frames, squinting at menus), never at customers, people's
    looks, age, eyesight problems or any condition. No real people or celebrities, no film/TV characters or quotes,
    no copyrighted music or trending sounds (the engine makes its own soundtrack), no swearing, no competitor names.
