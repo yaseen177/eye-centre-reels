@@ -32,6 +32,21 @@ video is retired). Abbas wants funny intros, viral/trending formats, animation a
 3. Look at the cut-out (Read the PNG). Reject it and pick another product if the frame is cropped, has page UI in it,
    or the background is not clean. Reuse cut-outs already in `studio/assets/cutouts/` when the handle matches.
 
+## 2b. Real shop photos (Abbas asked for these — "to give people the feel that we are real")
+- Cleaned photos of the shop are in `studio/assets/store/` (storefront, shop-floor, brand-wall, rayban-wall);
+  `studio/assets/store/photos.json` says what each shows and how to frame it. Use **only** these files — never the
+  originals (they contain a model poster, ad cards with people, passers-by, a Mulberry card and % stickers).
+- Use them in **roughly every second or third reel** (not every one), as 1–2 `shop` scenes (see `studio/store.py`,
+  example `studio/examples/shop-photos.json`): `pan` = full-screen slow pan/zoom over an interior shot, `print` = the
+  storefront as a photo print dropping in. Don't use the same photo two reels running (check `shop_photos` in history).
+- Good spots: right after the hook ("THIS IS US", "COME SAY HI", "WALLS OF DESIGNER FRAMES", "RAY-BAN CORNER"),
+  or just before the end card with the storefront print captioned "56 High Street, Leicester".
+- The interior photos show in-store **SALE** signs. Use the normal framing only while a Shopify offer is live; when no
+  offer is live use the storefront, or the `no_offer_safe` framing in photos.json (checked: no SALE sign in shot).
+- Words on shop scenes follow the same rules: nothing unverified (no opening hours, stock claims, "biggest", etc.).
+  Brands may be named only if they are in the online brand list below.
+- Prefer the gold or punch style for `pan` (white text on a darkened photo); `print` works in every style.
+
 ## 3. Build the video
 1. Write `studio/specs/<date>-<slug>.json` (format documented at the top of `studio/engine.py` and `studio/viral.py`;
    see `studio/examples/`, especially `funny-chat.json`; example prices are NOT current — always re-read prices). 10–16 seconds total, 4–6 scenes, always ending with an `end`
@@ -89,7 +104,8 @@ jackpots, spinning reels), anything about patients.
    - Facebook: connector `facebook_organic`, account `1330737563467275`, action `create_reel`,
      params `{video_url, description: caption}`
    If Meta can't fetch the video yet, wait 2 minutes and retry once.
-4. Append to `history.json`: date, file, style, format, hook, product handles, offer, IG/FB result. Commit + push.
+4. Append to `history.json`: date, file, style, format, hook, product handles, offer, `shop_photos` (list of
+   store photo files used, or []), IG/FB result. Commit + push.
 5. Message Abbas: what was posted, the hook, the products, and the links (or the exact error).
 
 ## Hard rules

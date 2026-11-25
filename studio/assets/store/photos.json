@@ -1,0 +1,26 @@
+{
+ "_note": "Cleaned photos of The Eye Centre, 56 High Street, Leicester (sent by Abbas, Nov 2026). Model poster, ad cards with people, passers-by, the Mulberry card and % stickers were removed/blurred by studio/store_prep.py. Never use any other copy of these photos. focus = [x, y] fractions for the shop scene's from/to.",
+ "storefront.jpg": {
+  "shows": "Outside of the shop on the corner of High Street at dusk, 'the eye centre / opticians / theeyecentre.com' signs, wet street.",
+  "best": "mode print (wide photo); or pan with zoom 1.0 from [0.35,0.5] to [0.55,0.5]",
+  "sale_sign": false
+ },
+ "shop-floor.jpg": {
+  "shows": "Wide view inside: Ray-Ban optical wall, SALE stand, Tom Ford / Gucci stand, Emporio Armani / Ralph Lauren stand, SALE stand.",
+  "best": "mode pan, from [0.05,0.55] to [0.95,0.55], zoom [1.0,1.06] (a full sweep along the wall)",
+  "sale_sign": true,
+  "no_offer_safe": "zoom [1.4,1.5], from [0.15,0.45] to [0.15,0.7] (Ray-Ban optical wall only); otherwise skip"
+ },
+ "brand-wall.jpg": {
+  "shows": "Angled view of the SALE / Tom Ford Gucci / Emporio Armani Ralph Lauren / SALE stands, glass shelves full of frames.",
+  "best": "mode pan, from [0.3,0.45] to [0.62,0.5], zoom [1.02,1.15]",
+  "sale_sign": true,
+  "no_offer_safe": "zoom [1.18,1.25], from [0.46,0.45] to [0.52,0.55] (Tom Ford Gucci + Armani Ralph Lauren stands only)"
+ },
+ "rayban-wall.jpg": {
+  "shows": "Front-on: two lit Ray-Ban sunglasses towers, SALE sunglasses stand, Ray-Ban 'Icons' optical wall.",
+  "best": "mode pan, from [0.2,0.5] to [0.75,0.45], zoom [1.0,1.1]",
+  "sale_sign": true,
+  "no_offer_safe": "zoom [1.2,1.3], from [0.18,0.35] to [0.18,0.65] (Ray-Ban towers) or zoom 1.35 around [0.86,0.5] (Icons wall)"
+ }
+}

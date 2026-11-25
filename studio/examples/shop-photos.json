@@ -1,0 +1,7 @@
+{"style":"gold","scenes":[
+ {"type":"pov","text":"POV: you walk into an opticians that actually has Tom Ford in stock","image":"assets/cutouts/tom-ford-ft0904-aurele.png","dur":3},
+ {"type":"shop","mode":"pan","image":"assets/store/shop-floor.jpg","from":[0.05,0.55],"to":[0.95,0.55],"zoom":[1.0,1.06],"tag":"56 High Street, Leicester","text":"THIS IS US","sub":"Independent opticians since 1974","dur":3.5},
+ {"type":"shop","mode":"pan","image":"assets/store/brand-wall.jpg","from":[0.3,0.45],"to":[0.62,0.5],"zoom":[1.02,1.15],"text":"WALLS OF DESIGNER FRAMES","dur":2.5},
+ {"type":"shop","mode":"pan","image":"assets/store/rayban-wall.jpg","from":[0.2,0.5],"to":[0.75,0.45],"zoom":[1.0,1.1],"text":"RAY-BAN CORNER","dur":2.5},
+ {"type":"shop","mode":"print","image":"assets/store/storefront.jpg","zoom":[1.0,1.08],"caption":"56 High Street, Leicester","tag":"Come and see us","text":"COME SAY HI","dur":3},
+ {"type":"end","headline":"SEE YOU SOON","sub":"The Eye Centre, Leicester","cta":"theeyecentre.com","small":["Or shop online at theeyecentre.com"],"dur":3}]}
