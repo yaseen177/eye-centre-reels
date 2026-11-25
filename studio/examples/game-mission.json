@@ -1,0 +1,6 @@
+{"style":"gold","scenes":[
+ {"type":"mission","title":"NEW MISSION","text":"Find designer frames before the Black Friday sale ends","objective":"Get to 56 High Street, Leicester","level":"LV 74","dur":3.5},
+ {"type":"loot","title":"ITEM FOUND","rarity":"LEGENDARY","image":"assets/cutouts/gucci-gg2270s.png","brand":"Gucci","name":"GG2270S","price":"£245","was":"£350","stats":[["Drip",100],["Main character energy",97],["Wallet damage",30]],"dur":3},
+ {"type":"loot","title":"ITEM FOUND","rarity":"EPIC","image":"assets/cutouts/ray-ban-rb3025-aviator-classic.png","brand":"Ray-Ban","name":"RB3025 Aviator Classic","price":"£143.14","was":"£204.49","stats":[["Aura",95],["Iconic",100],["Wallet damage",30]],"dur":3},
+ {"type":"complete","lines":["MISSION","COMPLETE"],"reward":"30% OFF DESIGNER FRAMES","xp":"+100 STYLE","dur":3},
+ {"type":"end","headline":"30% OFF DESIGNER FRAMES","sub":"Black Friday at The Eye Centre","cta":"theeyecentre.com","small":["Frames only. Excludes Ray-Ban Meta."],"dur":3}]}

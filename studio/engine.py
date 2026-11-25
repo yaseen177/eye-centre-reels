@@ -18,6 +18,7 @@ Scene types (every scene shows the logo at the top; "end" shows it large):
   list     {"title": "...", "items": ["...", "..."]}         up to 5 short items, revealed one per beat
   + viral formats (chat, pov, glitch, rate, guess, search): see studio/viral.py
   + real shop photos (shop, pan or print): see studio/store.py
+  + game-mission theme (mission, loot, complete): see studio/game.py
   end      {"headline": "...", "sub": "...", "cta": "theeyecentre.com", "small": ["line", "line"]}
 """
 import sys, os, json, subprocess, tempfile
@@ -26,6 +27,7 @@ from lib import *
 import sfx
 from viral import ViralScenes
 from store import StoreScenes
+from game import GameScenes
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 RED2 = (214, 32, 44)
@@ -100,7 +102,7 @@ def icon(name, col, D=280):
 
 
 # ------------------------------------------------------------------ the renderer
-class Video(ViralScenes, StoreScenes):
+class Video(ViralScenes, StoreScenes, GameScenes):
     def __init__(self, spec, base_dir):
         self.spec = spec; self.base = base_dir
         self.st = STYLES[spec.get('style', 'gold')]
@@ -386,6 +388,7 @@ class Video(ViralScenes, StoreScenes):
                     for j in range(len(sc['items'][:5])): tr.add(sfx.blip(990 + 110 * j, .16), a + .4 + j * max(.35, (e - a - .8) / max(1, len(sc['items'][:5]))))
         self.viral_audio(tr, sfx)
         self.store_audio(tr, sfx)
+        self.game_audio(tr, sfx)
         tr.save(path, fade=.8 if soft else .6, drive=.7 if soft else .9)
 
 
