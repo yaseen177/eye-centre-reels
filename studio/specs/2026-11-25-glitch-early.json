@@ -1,0 +1,7 @@
+{"style":"gold","scenes":[
+ {"type":"glitch","lines":["ERROR:","BLACK FRIDAY","CAME EARLY"],"dur":2.5},
+ {"type":"list","title":"30% OFF RIGHT NOW","items":["Gucci","Saint Laurent","Tom Ford","Oakley","Ray-Ban"],"dur":3},
+ {"type":"rate","title":"RATING FRAMES","score":"10/10","image":"assets/cutouts/tom-ford-ft0904-aurele.png","brand":"Tom Ford","name":"FT0904 Aurele","price":"£245.34","was":"£350.49","dur":2.5},
+ {"type":"product","image":"assets/cutouts/oakley-0ox8166.png","brand":"Oakley","name":"OX8166 Wheel House","price":"£114.72","was":"£163.88","badge":"30% OFF","dur":2},
+ {"type":"feature","icon":"tryon","title":"TRY BEFORE YOU BUY","sub":"Try frames on virtually before you order","dur":2},
+ {"type":"end","headline":"30% OFF DESIGNER FRAMES","sub":"Black Friday at The Eye Centre","cta":"theeyecentre.com","small":["Frames only. Excludes Ray-Ban Meta."],"dur":3}]}
