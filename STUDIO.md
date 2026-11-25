@@ -2,7 +2,10 @@
 
 Goal: every day, make **one** new Reel for The Eye Centre (independent opticians, 56 High Street, Leicester,
 est. 1974, theeyecentre.com) and post it to **Instagram and the Facebook Page**. Then tell the owner (Abbas) what went out.
-`POSTS_PER_DAY = 1` (raise only if Abbas asks).
+Schedule (Abbas, 2026-11-25): the main reel posts every **evening ~18:47 UK** (evening reels reached ~2x the lunchtime
+ones). Until **2026-12-01 inclusive** (end of the Black Friday sale) a second scheduled run also posts a reel at
+**~12:47 UK**; from 2026-12-02 it is one reel a day again (evening). Each run makes exactly one reel. When there are two
+runs in a day, the second must differ from the first in hook type, products and style (check today's history entries).
 
 **Every video is brand new.** Never re-post or re-upload an existing video (the Black Friday reels "Stop Scrolling",
 "Designer frames never go on sale" and the original Black Friday reel are running as paid Meta ads; the slot machine
@@ -49,9 +52,13 @@ video is retired). Abbas wants funny intros, viral/trending formats, animation a
 
 ## 3. Build the video
 1. Write `studio/specs/<date>-<slug>.json` (format documented at the top of `studio/engine.py` and `studio/viral.py`;
-   see `studio/examples/`, especially `funny-chat.json`; example prices are NOT current — always re-read prices). 10–16 seconds total, 4–6 scenes, always ending with an `end`
+   see `studio/examples/`, especially `funny-chat.json`; example prices are NOT current — always re-read prices). 9–12 seconds total (max 13), 4–5 scenes, always ending with an `end`
    scene. Logo is automatic on every scene.
 2. **The first scene is the hook and should be funny or viral-style** — it must make people stop in the first second.
+   ~85% of viewers were swiping away in the first 3 s (avg watch ~2.5 s, Nov 2026), so: something must move on
+   screen from frame 1, a product photo, a price or the offer must be visible within ~1.5 s (e.g. POV over a product,
+   a chat whose 2nd bubble names the brand/price, a glitch hook of max 1.5 s that cuts to a product), and keep the
+   hook scene ≤ 2 s. Also write the hook as the first line of the caption.
    Use one of the viral scene types as the opener (write NEW wording every day, these are only examples):
    - `chat` (fake text conversation — funniest, best performer). Contacts are generic: Mum, Dad, Bestie, Boss, My Bank,
      My Wallet, The Group Chat, Me in 2019. e.g. Me: "Mum I need new glasses" / Mum: "We have glasses at home" /
