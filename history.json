@@ -189,5 +189,51 @@
    "post_id": "1330737563467275_122115972681533740"
   },
   "shop_photos": []
+ },
+ {
+  "date": "2026-11-26",
+  "slot": "lunchtime",
+  "file": "videos/2026-11-26-loot-mission.mp4",
+  "spec": "studio/specs/2026-11-26-loot-mission.json",
+  "style": "punch",
+  "format": "game",
+  "hook": "mission: 'NEW MISSION' / 'Grab 30% off designer frames before your wallet notices' / objective 'Get to theeyecentre.com'",
+  "scenes": [
+   "mission",
+   "loot",
+   "loot",
+   "complete",
+   "end"
+  ],
+  "products": [
+   {
+    "handle": "gucci-gg2270s",
+    "price": "350.00",
+    "shown": "245.00"
+   },
+   {
+    "handle": "tom-ford-ft1176-vincent",
+    "price": "348.49",
+    "shown": "243.94"
+   }
+  ],
+  "offer": "Black Friday 30% off frames (automatic, ends 2026-12-01T23:59:59Z)",
+  "caption_hashtags": [
+   "#blackfriday",
+   "#designerglasses",
+   "#eyewear",
+   "#leicester",
+   "#opticians"
+  ],
+  "instagram": {
+   "status": "published",
+   "media_id": "17972543523202964"
+  },
+  "facebook": {
+   "status": "published",
+   "video_id": "983979521060466",
+   "post_id": "1330737563467275_122116350159533740"
+  },
+  "shop_photos": []
  }
 ]
