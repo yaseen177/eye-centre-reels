@@ -1,0 +1,6 @@
+{"style":"punch","scenes":[
+ {"type":"mission","title":"NEW MISSION","text":"Grab 30% off designer frames before your wallet notices","objective":"Get to theeyecentre.com","level":"LV 74","dur":2},
+ {"type":"loot","title":"ITEM FOUND","rarity":"LEGENDARY","image":"assets/cutouts/gucci-gg2270s.png","brand":"Gucci","name":"GG2270S","price":"£245","was":"£350","stats":[["Holiday energy",100],["Compliment magnet",97],["Wallet damage",70]],"dur":2.5},
+ {"type":"loot","title":"ITEM FOUND","rarity":"EPIC","image":"assets/cutouts/tom-ford-ft1176-vincent.png","brand":"Tom Ford","name":"FT1176 Vincent","price":"£243.94","was":"£348.49","stats":[["Mystery level",100],["Boardroom aura",96],["Wallet damage",70]],"dur":2.5},
+ {"type":"complete","lines":["MISSION","COMPLETE"],"reward":"30% OFF DESIGNER FRAMES","xp":"+2 NEW LOOKS","dur":2},
+ {"type":"end","headline":"LEVEL UP YOUR FRAMES","sub":"30% off designer frames online","cta":"theeyecentre.com","small":["Frames only. Excludes Ray-Ban Meta."],"dur":2.5}]}
