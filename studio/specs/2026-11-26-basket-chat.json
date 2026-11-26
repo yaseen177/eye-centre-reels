@@ -1,0 +1,9 @@
+{"style":"cream","scenes":[
+ {"type":"chat","name":"Mum","dur":2,"messages":[
+   {"from":"them","text":"Why are there 3 pairs in your basket??"},
+   {"from":"me","text":"Saint Laurent is 30% off"},
+   {"from":"them","text":"Add one for me x"}]},
+ {"type":"product","image":"assets/cutouts/saint-laurent-sl-39.png","brand":"SAINT LAURENT","name":"SL 39","price":"£189","was":"£270","badge":"30% OFF","dur":2},
+ {"type":"shop","mode":"pan","image":"assets/store/brand-wall.jpg","from":[0.3,0.45],"to":[0.62,0.5],"zoom":[1.02,1.15],"tag":"56 High Street, Leicester","text":"COME SAY HI","sub":"Independent opticians since 1974","dur":2.5},
+ {"type":"rate","title":"RATING FRAMES","score":"10/10","image":"assets/cutouts/polo-ralph-lauren-0ph1229.png","brand":"Polo Ralph Lauren","name":"0PH1229","price":"From £130.89","dur":2},
+ {"type":"end","headline":"30% OFF DESIGNER FRAMES","sub":"Black Friday at The Eye Centre","cta":"theeyecentre.com","small":["Frames only. Excludes Ray-Ban Meta."],"dur":2.5}]}
