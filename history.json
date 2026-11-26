@@ -235,5 +235,53 @@
    "post_id": "1330737563467275_122116350159533740"
   },
   "shop_photos": []
+ },
+ {
+  "date": "2026-11-26",
+  "slot": "evening",
+  "file": "videos/2026-11-26-basket-chat.mp4",
+  "spec": "studio/specs/2026-11-26-basket-chat.json",
+  "style": "cream",
+  "format": "feature",
+  "hook": "chat with Mum: 'Why are there 3 pairs in your basket??' / 'Saint Laurent is 30% off' / 'Add one for me x'",
+  "scenes": [
+   "chat",
+   "product",
+   "shop",
+   "rate",
+   "end"
+  ],
+  "products": [
+   {
+    "handle": "saint-laurent-sl-39",
+    "price": "270.00",
+    "shown": "189.00"
+   },
+   {
+    "handle": "polo-ralph-lauren-0ph1229",
+    "price": "186.99 (from)",
+    "shown": "From 130.89"
+   }
+  ],
+  "offer": "Black Friday 30% off frames (automatic, ends 2026-12-01T23:59:59Z)",
+  "caption_hashtags": [
+   "#blackfriday",
+   "#designerglasses",
+   "#eyewear",
+   "#leicester",
+   "#opticians"
+  ],
+  "instagram": {
+   "status": "published",
+   "media_id": "17906664165607929"
+  },
+  "facebook": {
+   "status": "published",
+   "video_id": "1131458099728491",
+   "post_id": "1330737563467275_122116448619533740"
+  },
+  "shop_photos": [
+   "brand-wall.jpg"
+  ]
  }
 ]
