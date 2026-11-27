@@ -283,5 +283,50 @@
   "shop_photos": [
    "brand-wall.jpg"
   ]
+ },
+ {
+  "date": "2026-11-27",
+  "slot": "lunchtime",
+  "file": "videos/2026-11-27-main-character-rate.mp4",
+  "spec": "studio/specs/2026-11-27-main-character-rate.json",
+  "style": "gold",
+  "format": "brand spotlight",
+  "hook": "rate: 'MAIN CHARACTER ENERGY' with 11/10 stamp on Burberry 0BE1323 (caption: 'Rating Burberry frames by main character energy: 11/10')",
+  "scenes": [
+   "rate",
+   "guess",
+   "list",
+   "end"
+  ],
+  "products": [
+   {
+    "handle": "burberry-0be1323",
+    "price": "225.99",
+    "shown": "158.19"
+   },
+   {
+    "handle": "burberry-0be1389",
+    "price": "270.99",
+    "shown": "189.69"
+   }
+  ],
+  "offer": "Black Friday 30% off frames (automatic, ends 2026-12-01T23:59:59Z)",
+  "caption_hashtags": [
+   "#blackfriday",
+   "#burberry",
+   "#designerglasses",
+   "#leicester",
+   "#opticians"
+  ],
+  "instagram": {
+   "status": "published",
+   "media_id": "17926275819220769"
+  },
+  "facebook": {
+   "status": "published",
+   "video_id": "1134140726088695",
+   "post_id": "1330737563467275_122116716033533740"
+  },
+  "shop_photos": []
  }
 ]
