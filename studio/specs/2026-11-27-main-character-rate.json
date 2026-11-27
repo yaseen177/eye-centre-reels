@@ -1,0 +1,5 @@
+{"style":"gold","scenes":[
+ {"type":"rate","title":"MAIN CHARACTER ENERGY","score":"11/10","image":"assets/cutouts/burberry-0be1323.png","brand":"Burberry","name":"0BE1323","price":"£158.19","was":"£225.99","dur":2},
+ {"type":"guess","question":"GUESS THE BURBERRY PRICE","image":"assets/cutouts/burberry-0be1389.png","brand":"Burberry","name":"0BE1389","price":"£189.69","was":"£270.99","dur":3},
+ {"type":"list","title":"GREEN FLAGS IN GLASSES","items":["30% off designer frames","Try up to 2 frames at home for 10 days","Try frames on virtually","Prescription lenses by Essilor"],"dur":3},
+ {"type":"end","headline":"30% OFF DESIGNER FRAMES","sub":"Independent opticians since 1974","cta":"theeyecentre.com","small":["Frames only. Excludes Ray-Ban Meta."],"dur":2.5}]}
