@@ -328,5 +328,58 @@
    "post_id": "1330737563467275_122116716033533740"
   },
   "shop_photos": []
+ },
+ {
+  "date": "2026-11-27",
+  "slot": "evening",
+  "file": "videos/2026-11-27-gatekeep-pov.mp4",
+  "spec": "studio/specs/2026-11-27-gatekeep-pov.json",
+  "style": "punch",
+  "format": "versus",
+  "hook": "pov: 'POV: they ask where your frames are from and you gatekeep the 30% off'",
+  "scenes": [
+   "pov",
+   "versus",
+   "product",
+   "shop",
+   "end"
+  ],
+  "products": [
+   {
+    "handle": "ray-ban-0rb2140",
+    "price": "169.49 (from)",
+    "shown": "From 118.64"
+   },
+   {
+    "handle": "gucci-gg0038oann",
+    "price": "270.00",
+    "shown": "189.00"
+   },
+   {
+    "handle": "armani-exchange-0ax3048",
+    "price": "95.99 (from)",
+    "shown": "From 67.19"
+   }
+  ],
+  "offer": "Black Friday 30% off frames (automatic, ends 2026-12-01T23:59:59Z)",
+  "caption_hashtags": [
+   "#blackfriday",
+   "#designerglasses",
+   "#rayban",
+   "#leicester",
+   "#opticians"
+  ],
+  "instagram": {
+   "status": "published",
+   "media_id": "18004807502815206"
+  },
+  "facebook": {
+   "status": "published",
+   "video_id": "1450331873354255",
+   "post_id": "1330737563467275_122116802991533740"
+  },
+  "shop_photos": [
+   "rayban-wall.jpg"
+  ]
  }
 ]
