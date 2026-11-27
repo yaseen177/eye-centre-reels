@@ -1,0 +1,6 @@
+{"style":"punch","scenes":[
+ {"type":"pov","text":"POV: they ask where your frames are from and you gatekeep the 30% off","image":"assets/cutouts/ray-ban-0rb2140-pad.png","dur":2},
+ {"type":"versus","question":"WHICH WOULD YOU PICK?","a":{"image":"assets/cutouts/gucci-gg0038oann.png","brand":"GUCCI","name":"GG0038OANN","price":"£189","was":"£270"},"b":{"image":"assets/cutouts/armani-exchange-0ax3048.png","brand":"A|X","name":"Armani Exchange AX3048","price":"From £67.19"},"dur":3},
+ {"type":"product","image":"assets/cutouts/ray-ban-0rb2140.png","brand":"RAY-BAN","name":"RB2140","price":"From £118.64","badge":"30% OFF","dur":2},
+ {"type":"shop","mode":"pan","image":"assets/store/rayban-wall.jpg","from":[0.2,0.62],"to":[0.7,0.58],"zoom":[1.12,1.2],"tag":"56 High Street, Leicester","text":"OR COME SAY HI","dur":2},
+ {"type":"end","headline":"30% OFF DESIGNER FRAMES","sub":"Black Friday at The Eye Centre","cta":"theeyecentre.com","small":["Frames only. Excludes Ray-Ban Meta."],"dur":3}]}
