@@ -1,0 +1,9 @@
+{"style":"cream","scenes":[
+ {"type":"chat","name":"My Bank","dur":2,"messages":[
+   {"from":"them","text":"Who's using your card on your lunch break?"},
+   {"from":"me","text":"Me. Tom Ford is 30% off"},
+   {"from":"them","text":"...enjoy your lunch x"}]},
+ {"type":"product","image":"assets/cutouts/tom-ford-ft5938-b.png","brand":"TOM FORD","name":"FT5938-B","price":"£224.34","was":"£320.49","badge":"30% OFF","dur":2},
+ {"type":"guess","question":"LUNCH BREAK PRICE CHECK","image":"assets/cutouts/saint-laurent-sl-124.png","brand":"Saint Laurent","name":"SL 124","price":"£231","was":"£330","dur":2.5},
+ {"type":"feature","icon":"pay","title":"Pay later","sub":"Pay later with Klarna or Clearpay","dur":2},
+ {"type":"end","headline":"30% OFF DESIGNER FRAMES","sub":"Black Friday at The Eye Centre","cta":"theeyecentre.com","small":["Frames only. Excludes Ray-Ban Meta."],"dur":2.5}]}
