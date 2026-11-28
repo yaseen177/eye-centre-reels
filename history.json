@@ -381,5 +381,51 @@
   "shop_photos": [
    "rayban-wall.jpg"
   ]
+ },
+ {
+  "date": "2026-11-28",
+  "slot": "lunchtime",
+  "file": "videos/2026-11-28-lunch-break-chat.mp4",
+  "spec": "studio/specs/2026-11-28-lunch-break-chat.json",
+  "style": "cream",
+  "format": "offer",
+  "hook": "chat with My Bank: 'Who's using your card on your lunch break?' / 'Me. Tom Ford is 30% off' / '...enjoy your lunch x'",
+  "scenes": [
+   "chat",
+   "product",
+   "guess",
+   "feature",
+   "end"
+  ],
+  "products": [
+   {
+    "handle": "tom-ford-ft5938-b",
+    "price": "320.49",
+    "shown": "224.34"
+   },
+   {
+    "handle": "saint-laurent-sl-124",
+    "price": "330.00",
+    "shown": "231.00"
+   }
+  ],
+  "offer": "Black Friday 30% off frames (automatic, ends 2026-12-01T23:59:59Z)",
+  "caption_hashtags": [
+   "#blackfriday",
+   "#tomford",
+   "#designerglasses",
+   "#leicester",
+   "#opticians"
+  ],
+  "instagram": {
+   "status": "published",
+   "media_id": "17892661587653110"
+  },
+  "facebook": {
+   "status": "published",
+   "video_id": "1680211790420863",
+   "post_id": "1330737563467275_122117020077533740"
+  },
+  "shop_photos": []
  }
 ]
